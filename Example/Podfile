@@ -1,0 +1,6 @@
+
+target 'AKUSexagenaryCycle', :exclusive => true do
+  pod "AKUSexagenaryCycle", :path => "../"
+
+  pod 'Kiwi'
+end
