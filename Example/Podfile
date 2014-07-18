@@ -3,4 +3,6 @@ target 'AKUSexagenaryCycle', :exclusive => true do
   pod "AKUSexagenaryCycle", :path => "../"
 
   pod 'Kiwi'
+  pod 'AZDateBuilder'
+  pod 'NSDate-Escort'
 end
