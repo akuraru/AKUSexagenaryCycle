@@ -10,28 +10,25 @@
 Pod::Spec.new do |s|
   s.name             = "AKUSexagenaryCycle"
   s.version          = "0.1.0"
-  s.summary          = "A short description of AKUSexagenaryCycle."
+  s.summary          = "AKUSexagenaryCycle is cal sexagenary."
   s.description      = <<-DESC
-                       An optional longer description of AKUSexagenaryCycle
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        AKUSexagenaryCycle is cal sexagenary cycle.
                        DESC
-  s.author_name      = 'akuraru'
-  s.homepage         = "https://github.com/#{s.author_name}/AKUSexagenaryCycle"
+  s.homepage         = "https://github.com/akuraru/AKUSexagenaryCycle"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "akuraru" => "akuraru@gmail.com" }
-  s.source           = { :git => "#{s.homepage}.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/#{s.author_name}'
+  s.source           = { :git => "#{s.homepage}/.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/akuraru'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
+  # s.resources = 'Pod/Assets/*.png'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'NSDate-Escort', 'AZDateBuilder'
+  s.dependency 'NSDate-Escort'
+  s.dependency 'AZDateBuilder'
 end

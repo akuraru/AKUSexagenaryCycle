@@ -11,29 +11,33 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		BEE041C61978AF20002FB370 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BEE041C11978AF20002FB370 /* .gitkeep */; };
+		BEE041C71978AF20002FB370 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BEE041C31978AF20002FB370 /* .gitkeep */; };
+		BEE041C81978AF20002FB370 /* AKUSexagenaryCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE041C51978AF20002FB370 /* AKUSexagenaryCycle.m */; };
 		C2AC6E16692D455EBE7167D0 /* libPods-AKUSexagenaryCycle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2B922133894255A70DBF3F /* libPods-AKUSexagenaryCycle.a */; };
 		C8790A43880A2F5AE507EB25 /* AKUSexagenaryCycleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C8790AB0B72FF26FEDA7B3E1 /* AKUSexagenaryCycleSpec.m */; };
-		C8790F706F47B5369AAE2786 /* AKUSexagenaryCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = C8790B5727E8250F0B036AF9 /* AKUSexagenaryCycle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C959A6BC9D9479B8C1007B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1C959A6BC9D9479B8C1007B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3F2B922133894255A70DBF3F /* libPods-AKUSexagenaryCycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKUSexagenaryCycle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* AKUSexagenaryCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKUSexagenaryCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = AKUSexagenaryCycle.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		77DEE1ACF54E4C208B0E8247 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		77DEE1ACF54E4C208B0E8247 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9DB8C9BCBA0A4F47969DABAD /* Pods-AKUSexagenaryCycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKUSexagenaryCycle.xcconfig"; path = "Pods/Pods-AKUSexagenaryCycle.xcconfig"; sourceTree = "<group>"; };
-		C09A4C35C03649448F031A57 /* AKUSexagenaryCycle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AKUSexagenaryCycle.podspec; path = ../AKUSexagenaryCycle.podspec; sourceTree = "<group>"; };
-		C87907D028BDF9F4A719A294 /* AKUSexagenaryCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKUSexagenaryCycle.h; sourceTree = "<group>"; };
+		BEE041C11978AF20002FB370 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		BEE041C31978AF20002FB370 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		BEE041C41978AF20002FB370 /* AKUSexagenaryCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKUSexagenaryCycle.h; sourceTree = "<group>"; };
+		BEE041C51978AF20002FB370 /* AKUSexagenaryCycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKUSexagenaryCycle.m; sourceTree = "<group>"; };
+		C09A4C35C03649448F031A57 /* AKUSexagenaryCycle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AKUSexagenaryCycle.podspec; path = ../AKUSexagenaryCycle.podspec; sourceTree = "<group>"; };
 		C8790AB0B72FF26FEDA7B3E1 /* AKUSexagenaryCycleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKUSexagenaryCycleSpec.m; sourceTree = "<group>"; };
-		C8790B5727E8250F0B036AF9 /* AKUSexagenaryCycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKUSexagenaryCycle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,12 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				BEE041BF1978AF20002FB370 /* Pod */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				9DB8C9BCBA0A4F47969DABAD /* Pods-AKUSexagenaryCycle.xcconfig */,
-				C879096C31A53F74ADC96883 /* Classes */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,11 +117,30 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		C879096C31A53F74ADC96883 /* Classes */ = {
+		BEE041BF1978AF20002FB370 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C87907D028BDF9F4A719A294 /* AKUSexagenaryCycle.h */,
-				C8790B5727E8250F0B036AF9 /* AKUSexagenaryCycle.m */,
+				BEE041C01978AF20002FB370 /* Assets */,
+				BEE041C21978AF20002FB370 /* Classes */,
+			);
+			name = Pod;
+			path = ../Pod;
+			sourceTree = "<group>";
+		};
+		BEE041C01978AF20002FB370 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BEE041C11978AF20002FB370 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		BEE041C21978AF20002FB370 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BEE041C31978AF20002FB370 /* .gitkeep */,
+				BEE041C41978AF20002FB370 /* AKUSexagenaryCycle.h */,
+				BEE041C51978AF20002FB370 /* AKUSexagenaryCycle.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -170,8 +193,6 @@
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				6003F5AD195388D20070C39A /* AKUSexagenaryCycle */,
@@ -184,7 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE041C71978AF20002FB370 /* .gitkeep in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				BEE041C61978AF20002FB370 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8790F706F47B5369AAE2786 /* AKUSexagenaryCycle.m in Sources */,
+				BEE041C81978AF20002FB370 /* AKUSexagenaryCycle.m in Sources */,
 				C8790A43880A2F5AE507EB25 /* AKUSexagenaryCycleSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
