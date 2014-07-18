@@ -97,5 +97,40 @@ describe(@"AKUSexagenaryCycle", ^{
             it(@"x % 12", ^{ [[theValue(target) should] equal:theValue(x % 12)]; });
         });
     });
+    describe(@"branchesDayForDate:", ^{
+        __block TwelveEarthlyBranches target;
+        context(@"2014/1/3is ", ^{
+            beforeEach(^{
+                target = [AKUSexagenaryCycle branchesDayForDate:[NSDate AZ_dateByUnit:@{
+                        AZ_DateUnit.year: @2014,
+                        AZ_DateUnit.month: @1,
+                        AZ_DateUnit.day: @3,
+                }]];
+            });
+            it(@"戌", ^{ [[theValue(target) should] equal:theValue(戌)]; });
+        });
+        context(@"2014/1/5 is ", ^{
+            beforeEach(^{
+                target = [AKUSexagenaryCycle branchesDayForDate:[NSDate AZ_dateByUnit:@{
+                        AZ_DateUnit.year: @2014,
+                        AZ_DateUnit.month: @1,
+                        AZ_DateUnit.day: @5,
+                }]];
+            });
+            it(@"子", ^{ [[theValue(target) should] equal:theValue(子)]; });
+        });
+        context(@"11 + x is ", ^{
+            __block NSUInteger x;
+            beforeEach(^{
+                x = arc4random_uniform(10000);
+                target = [AKUSexagenaryCycle branchesDayForDate:[NSDate AZ_dateByUnit:@{
+                        AZ_DateUnit.year: @2014,
+                        AZ_DateUnit.month: @1,
+                        AZ_DateUnit.day: @(5 + x),
+                }]];
+            });
+            it(@"x % 12", ^{ [[theValue(target) should] equal:theValue(x % 12)]; });
+        });
+    });
 });
 SPEC_END

@@ -41,4 +41,6 @@ typedef NS_ENUM(NSInteger , TwelveEarthlyBranches) {
 + (TenHeavenlyStems)stemsMonthForDate:(NSDate *)date;
 
 + (TwelveEarthlyBranches)branchesMonthForDate:(NSDate *)date;
+
++ (TwelveEarthlyBranches)branchesDayForDate:(NSDate *)date;
 @end
