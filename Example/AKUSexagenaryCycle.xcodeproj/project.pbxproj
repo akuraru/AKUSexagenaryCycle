@@ -356,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 859E9421577E65DE702A1436 /* Pods-AKUSexagenaryCycle.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 99RR93FE65;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -378,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8598BE375B6D8EA9723DCB53 /* Pods-AKUSexagenaryCycle.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 99RR93FE65;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

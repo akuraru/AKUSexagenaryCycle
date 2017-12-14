@@ -7,5 +7,4 @@ target 'AKUSexagenaryCycle' do
 
   pod 'Kiwi'
   pod 'AZDateBuilder'
-  pod 'NSDate-Escort'
 end

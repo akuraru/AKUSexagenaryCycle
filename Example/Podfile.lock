@@ -1,27 +1,22 @@
 PODS:
-  - AKUSexagenaryCycle (0.2.0):
-    - AZDateBuilder
-    - NSDate-Escort
+  - AKUSexagenaryCycle (0.2.1)
   - AZDateBuilder (0.1)
   - Kiwi (2.4.0)
-  - NSDate-Escort (1.8.2)
 
 DEPENDENCIES:
   - AKUSexagenaryCycle (from `../`)
   - AZDateBuilder
   - Kiwi
-  - NSDate-Escort
 
 EXTERNAL SOURCES:
   AKUSexagenaryCycle:
     :path: ../
 
 SPEC CHECKSUMS:
-  AKUSexagenaryCycle: 9763600184aeef6cd61415deef664613b42e1e71
+  AKUSexagenaryCycle: 2a6292f99646a0ccce759afcf1675e692ff145b3
   AZDateBuilder: 00939059a13d87c0e1e9b03e0410116857acce57
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  NSDate-Escort: c79db277a401c0ad219acd295ec17c7b4f61266f
 
-PODFILE CHECKSUM: 3fe8ded8685a466161d6a14a6baf557ba6a67a0d
+PODFILE CHECKSUM: 809b274c999e71a7462f374529a4d0bc88988570
 
 COCOAPODS: 1.3.1
