@@ -3,39 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		BEE041C61978AF20002FB370 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BEE041C11978AF20002FB370 /* .gitkeep */; };
-		BEE041C71978AF20002FB370 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BEE041C31978AF20002FB370 /* .gitkeep */; };
-		BEE041C81978AF20002FB370 /* AKUSexagenaryCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE041C51978AF20002FB370 /* AKUSexagenaryCycle.m */; };
-		C2AC6E16692D455EBE7167D0 /* libPods-AKUSexagenaryCycle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2B922133894255A70DBF3F /* libPods-AKUSexagenaryCycle.a */; };
+		B254A788848A5EAAACE98835 /* libPods-AKUSexagenaryCycle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A73664B12245790CC73C08C /* libPods-AKUSexagenaryCycle.a */; };
+		BE107BA71FE2A36D003F9A80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE107BA61FE2A36D003F9A80 /* XCTest.framework */; };
 		C8790A43880A2F5AE507EB25 /* AKUSexagenaryCycleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C8790AB0B72FF26FEDA7B3E1 /* AKUSexagenaryCycleSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A73664B12245790CC73C08C /* libPods-AKUSexagenaryCycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKUSexagenaryCycle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C959A6BC9D9479B8C1007B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3F2B922133894255A70DBF3F /* libPods-AKUSexagenaryCycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKUSexagenaryCycle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* AKUSexagenaryCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKUSexagenaryCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = AKUSexagenaryCycle.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* AKUSexagenaryCycle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKUSexagenaryCycle.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		77DEE1ACF54E4C208B0E8247 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9DB8C9BCBA0A4F47969DABAD /* Pods-AKUSexagenaryCycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKUSexagenaryCycle.xcconfig"; path = "Pods/Pods-AKUSexagenaryCycle.xcconfig"; sourceTree = "<group>"; };
-		BEE041C11978AF20002FB370 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		BEE041C31978AF20002FB370 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		BEE041C41978AF20002FB370 /* AKUSexagenaryCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKUSexagenaryCycle.h; sourceTree = "<group>"; };
-		BEE041C51978AF20002FB370 /* AKUSexagenaryCycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKUSexagenaryCycle.m; sourceTree = "<group>"; };
+		8598BE375B6D8EA9723DCB53 /* Pods-AKUSexagenaryCycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKUSexagenaryCycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKUSexagenaryCycle/Pods-AKUSexagenaryCycle.release.xcconfig"; sourceTree = "<group>"; };
+		859E9421577E65DE702A1436 /* Pods-AKUSexagenaryCycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKUSexagenaryCycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKUSexagenaryCycle/Pods-AKUSexagenaryCycle.debug.xcconfig"; sourceTree = "<group>"; };
+		BE107BA61FE2A36D003F9A80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C09A4C35C03649448F031A57 /* AKUSexagenaryCycle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AKUSexagenaryCycle.podspec; path = ../AKUSexagenaryCycle.podspec; sourceTree = "<group>"; };
 		C8790AB0B72FF26FEDA7B3E1 /* AKUSexagenaryCycleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKUSexagenaryCycleSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,25 +40,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				BE107BA71FE2A36D003F9A80 /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C2AC6E16692D455EBE7167D0 /* libPods-AKUSexagenaryCycle.a in Frameworks */,
+				B254A788848A5EAAACE98835 /* libPods-AKUSexagenaryCycle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E4AA98A73B70B83D6091273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				859E9421577E65DE702A1436 /* Pods-AKUSexagenaryCycle.debug.xcconfig */,
+				8598BE375B6D8EA9723DCB53 /* Pods-AKUSexagenaryCycle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				BEE041BF1978AF20002FB370 /* Pod */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				9DB8C9BCBA0A4F47969DABAD /* Pods-AKUSexagenaryCycle.xcconfig */,
+				2E4AA98A73B70B83D6091273 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* AKUSexagenaryCycle.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F5AE195388D20070C39A /* AKUSexagenaryCycle.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,11 +82,12 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE107BA61FE2A36D003F9A80 /* XCTest.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3F2B922133894255A70DBF3F /* libPods-AKUSexagenaryCycle.a */,
+				1A73664B12245790CC73C08C /* libPods-AKUSexagenaryCycle.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,34 +121,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		BEE041BF1978AF20002FB370 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BEE041C01978AF20002FB370 /* Assets */,
-				BEE041C21978AF20002FB370 /* Classes */,
-			);
-			name = Pod;
-			path = ../Pod;
-			sourceTree = "<group>";
-		};
-		BEE041C01978AF20002FB370 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				BEE041C11978AF20002FB370 /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		BEE041C21978AF20002FB370 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BEE041C31978AF20002FB370 /* .gitkeep */,
-				BEE041C41978AF20002FB370 /* AKUSexagenaryCycle.h */,
-				BEE041C51978AF20002FB370 /* AKUSexagenaryCycle.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,11 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "AKUSexagenaryCycle" */;
 			buildPhases = (
-				357D9634A728439C9D3B4404 /* Check Pods Manifest.lock */,
+				9A82105D211F4FB6983D4BA8 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				97478190D1CB4C63BACC0A25 /* Copy Pods Resources */,
+				E2EC446DAC06FF9554B41DF9 /* [CP] Embed Pods Frameworks */,
+				7E94B8F4424777303C01BA70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,7 +141,7 @@
 			);
 			name = AKUSexagenaryCycle;
 			productName = AKUSexagenaryCycleTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* AKUSexagenaryCycle.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -174,16 +151,11 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AKU;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = akuraru;
-				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
-					};
-				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "AKUSexagenaryCycle" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -205,43 +177,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE041C71978AF20002FB370 /* .gitkeep in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
-				BEE041C61978AF20002FB370 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		357D9634A728439C9D3B4404 /* Check Pods Manifest.lock */ = {
+		7E94B8F4424777303C01BA70 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKUSexagenaryCycle/Pods-AKUSexagenaryCycle-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		97478190D1CB4C63BACC0A25 /* Copy Pods Resources */ = {
+		9A82105D211F4FB6983D4BA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AKUSexagenaryCycle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2EC446DAC06FF9554B41DF9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-AKUSexagenaryCycle-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKUSexagenaryCycle/Pods-AKUSexagenaryCycle-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -251,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE041C81978AF20002FB370 /* AKUSexagenaryCycle.m in Sources */,
 				C8790A43880A2F5AE507EB25 /* AKUSexagenaryCycleSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,18 +265,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -302,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,25 +316,36 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -344,7 +354,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DB8C9BCBA0A4F47969DABAD /* Pods-AKUSexagenaryCycle.xcconfig */;
+			baseConfigurationReference = 859E9421577E65DE702A1436 /* Pods-AKUSexagenaryCycle.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -358,15 +368,15 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DB8C9BCBA0A4F47969DABAD /* Pods-AKUSexagenaryCycle.xcconfig */;
+			baseConfigurationReference = 8598BE375B6D8EA9723DCB53 /* Pods-AKUSexagenaryCycle.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -376,8 +386,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
