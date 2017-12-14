@@ -1,5 +1,11 @@
 reference: http://www.objc.io/issue-6/travis-ci.html
+osx_image: xcode9.1
 language: objective-c
 cache: bundler
 script:
-- xctool test -workspace Example/AKUSexagenaryCycle.xcworkspace -scheme AKUSexagenaryCycle -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild test -workspace Example/AKUSexagenaryCycle.xcworkspace -scheme AKUSexagenaryCycleTest -destination ${TARGET}
+
+env:
+  global:
+  matrix:
+    - TARGET='platform=iOS Simulator,name=iPhone X'
