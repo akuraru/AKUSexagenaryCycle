@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "AKUSexagenaryCycle"
-  s.version          = "0.2.1"
+  s.version          = "0.2.2"
   s.summary          = "AKUSexagenaryCycle is cal sexagenary."
   s.description      = <<-DESC
                         AKUSexagenaryCycle is cal sexagenary cycle.
